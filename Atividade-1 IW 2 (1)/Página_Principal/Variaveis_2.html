@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="stylesheet" href="/Bootstrap/Aula Bootstrap/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script href="/Bootstrap/Aula Bootstrap/bootstrap-5.3.2-dist/js/bootstrap.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Tipos de Variáveis</title>
+</head>
+<body class="body1">
+
+
+  <div class="header">
+    <nav class="navbar">
+      <div class="container-fluid">
+          <img class="Logo-Nav" src="/Imagens/Logo-Nav.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/Página_Principal/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sobre.html">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <br>
+
+   <h1 class="Titulo">Tipos de Váriaveis.</h1>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    Vamos explicar agora com mais detalhes sobre variáveis globais e locais, juntamente com os tipos de variáveis: var, let e const.
+  </p>
+  <br>
+
+  <br>
+  <br>
+  <br>
+
+  <h2 class="Titulo">Variáveis Globais:</h2>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    São como informações que podem ser acessadas de qualquer lugar dentro de um programa. 
+    É como se você escrevesse uma nota e a deixasse em uma mesa central para todos verem. 
+    Variáveis globais podem ser acessadas e modificadas de qualquer lugar no programa, o que pode ser conveniente, mas também pode levar a problemas se não forem usadas com cuidado.
+  </p>
+
+  <br>
+  <br>
+  <br>
+
+  <img class="img1_dupla2" src="/Imagens/VariávelGlobal.png" alt="Variável Global" title="Variável Global">
+  <img class="img2_dupla2" src="/Imagens/Erro_VariávelGlobal.png" alt="Erro Variável Global" title="Erro Variável Global">
+
+  <h2 class="Titulo">Variáveis Locais:</h2>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    São como informações que só podem ser vistas ou usadas em uma parte específica do programa. 
+    É como se você escrevesse uma nota e a deixasse em uma gaveta trancada. 
+    Variáveis locais são úteis porque mantêm as coisas organizadas e evitam confusão no programa. 
+    Elas só podem ser acessadas dentro da parte específica do programa onde foram definidas.
+    <br>
+    <br>
+    Abaixo podemos ver o que acontece quando se tenta usa-la indevidamente:
+  </p>
+   
+  <br>
+  <br>
+
+  <img class="img2_dupla1" src="/Imagens/VariavelLocal.png" alt="Variável Local" title="Variável Local">
+
+  <img class="img1_dupla1" src="/Imagens/Erro VariavelLocal.png" alt="Erro Variável Local" title="Erro Variável Local">
+
+
+  
+  <br>
+  <br>
+  <br>
+  
+
+  <h2 class="Titulo">Variável (var):</h2>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    É uma maneira antiga de declarar variáveis em JavaScript. As variáveis declaradas com var podem ser globais ou locais, dependendo de onde são declaradas. 
+    Uma desvantagem do var é que ele pode levar a problemas de escopo (onde uma variável é acessada) devido ao seu comportamento de içamento (hoisting), o que pode tornar o código mais difícil de entender.
+  </p>
+
+  <br>
+  <br>
+  
+  <center>
+  <img class="img1_dupla1" src="/Imagens/Var.png" alt="Var" title="Var">
+  </center>
+
+  <br>
+  <br>
+  <br>
+
+  <h2 class="Titulo">Variável (let):</h2>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    É uma maneira mais moderna e segura de declarar variáveis em JavaScript. 
+    As variáveis declaradas com let têm escopo de bloco, o que significa que elas só podem ser acessadas dentro do bloco de código onde foram declaradas. 
+    Isso ajuda a evitar problemas de escopo e torna o código mais seguro e fácil de entender.
+  </p>
+
+  <br>
+  <br>
+  
+  <center>
+  <img class="img2_dupla2" src="/Imagens/Var_Let.png" alt="Var_Let" title="Var_Let">
+  </center>
+
+  <br>
+  <br>
+  <br>
+
+  <h2 class="Titulo">Variável (const):</h2>
+
+  <br>
+  <br>
+
+  <p class="Paragrafos">
+    É semelhante ao let, mas as variáveis declaradas com const são constantes, o que significa que seus valores não podem ser alterados depois de serem atribuídos. 
+    Isso torna o código mais seguro, pois indica claramente que o valor da variável não mudará durante a execução do programa.
+  </p>
+
+  <br>
+  <br>
+
+  <center>
+  <img class="img1_dupla1" src="/Imagens/Var_Const.png" alt="Var_Const" title="Var_Const">
+  </center>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="pagination-container">
+    <nav aria-label="Page navigation">
+     <ul class="pagination">
+       <li class="page-item"><a class="page-link" href="/Página_Principal/Variaveis.html">Anterior</a></li>
+       <li class="page-item"><a class="page-link" href="/Página_Principal/Operadores.html">Próximo</a></li>
+     </ul>
+    </nav>
+   </div>
+
+  
+  
+
+</body>
+</html>
