@@ -1,0 +1,293 @@
+
+.body{
+  background-color: #3c0051; 
+}
+
+.header{
+    background-color: #740d99;
+}
+
+.navbar-nav {
+    min-height: 100px;
+    max-height: 100px;
+    height: 100px;
+    background-color: #740d99;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 0; 
+   
+}
+
+.container-fluid{
+    background-color: #740d99;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px; 
+    border: none; 
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.Logo-Nav{
+    margin-left: 0px;
+    width: auto;
+    height: 100px;
+    transition: transform 0.3s;
+}
+
+.Logo-Nav:hover{
+    transform: scale(1.1);
+    
+}
+
+
+#nav-item{
+ color: purple;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-left: 15px;
+    transition: background-color 0.3s;
+    transition: transform 0.3s;
+    border-radius: 5px;
+    font-size: large;
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(238, 255, 3);
+    background-color: #710090c7;
+    transform: scale(1.1);
+}
+
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#video-container video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: auto;
+    object-fit: cover; 
+
+}
+
+
+
+#Titulo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+#content {
+    margin-right: 10%; 
+    color: white;
+    
+}
+
+.botao {
+    background-color: #be01f2c7; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: transform 0.5s;
+}
+
+.botao:hover {
+    background-color: #710090c7;
+    color:rgb(242, 255, 0);
+    transform: scale(1.1);
+}
+
+#pri-image {
+    max-width: 250px; 
+    margin-right: 20%; 
+    
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-image: linear-gradient(to bottom, rgb(148, 0, 246), #3a064e ); 
+    border-radius: 2%;   
+}
+
+.hdois{
+    text-align: center;
+    color: #fff;
+}
+
+.item{
+    background-color: #24016e;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 400px;
+    border-radius: 10%;
+}
+
+
+img.imagem-grande{
+    width: 295px;
+    height: 180px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+img.imagem-grande:hover{
+    transform: scale(1.1);
+}
+
+.explicaçao{
+    text-align: justify;
+}
+
+#selo{
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.selo{
+    width: 30%;
+    height: 20%;
+   
+}
+
+/*Exclusivo das páginas de conteúdo*/
+
+.body1{
+    background-color: #3c0051;
+}
+
+.Titulo{
+    text-align: center;
+    color: rgb(242, 255, 0);
+    margin-top: 1.0%;
+
+}
+
+.Paragrafos{
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+}
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+}
+
+.page-item .page-link{
+    background-color: #7c157b;
+    color: white;
+    transition: transform 0.5s;
+}
+
+.page-item .page-link:hover{
+    color: rgb(238, 255, 3);
+    background-color: #710090c7;
+    transform: scale(1.1);
+}
+
+/*Imagens das matérias*/
+
+.img1_dupla1{
+    width: 33%;
+    height: 23%;
+}
+
+.img2_dupla1{
+   width: 40%;
+   height: 25%;
+   margin-left: 10%
+}
+
+.img1_dupla2{
+    width: 35%;
+    height: 20%;
+    margin-left: 10%;
+}
+
+.img2_dupla2{
+   width: 40%;
+   height: 25%;
+}
+
+/*Página Sobre*/
+
+.h-1{
+    text-align: center;
+    color: white;
+}
+
+
+
+/*Página Lincar JavaScript*/
+
+.script_image{
+    width: 30%;
+    height: 20%;
+    
+}
+
+.script_image2{
+    width: 50%;
+    height: 20%;
+}
+
+.scripts{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white
+}
+
+
+
+#calculos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label{
+    color: white;
+}
+
+
+
+#resultados{
+    color: white;
+}
